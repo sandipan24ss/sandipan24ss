@@ -1,0 +1,10 @@
+name = "airbnb-clone"
+pages_build_output_dir = "./frontend/dist"
+
+[[pages.functions]]
+  binding = "DB"   # D1 database binding
+
+[[d1_databases]]
+  binding = "DB"
+  database_name = "airbnb-db"
+  database_id = "<your-database-id>"  # will be created by wrangler
